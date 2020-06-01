@@ -12,11 +12,7 @@ To clone the repository:
 git clone https://github.com/johannescairns/repeatable_dynamics.git
 ```
 
-To run the analyses of our study, we must create a python environment where we can run the code using conda:
-
-```sh
-conda env create --file=environment.yaml
-```
+The R packages needed to run the analyses of the study are listed in each script file.
 
 The `data` directory contains phenotypic (amplicon_data) and whole genome (deep_seq) data for the experiment. The `src` directory has code to reproduce all figures in the paper.
 
